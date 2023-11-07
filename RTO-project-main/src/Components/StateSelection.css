@@ -1,0 +1,57 @@
+/* StateSelection.css */
+
+.state-selection-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+  animation: fadeIn 0.5s ease-in-out; /* Add fadeIn animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.rto-code {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #28a745; /* Green color for RTO code */
+  animation: slideInUp 0.5s ease-in-out; /* Add slideInUp animation */
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

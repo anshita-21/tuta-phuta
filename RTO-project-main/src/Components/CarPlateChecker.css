@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .car-plate-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 30vw;
+    background: linear-gradient(45deg, #92f300, #007bff);
+    border: 2px solid #007bff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 15px 20px; /* Adjust the padding */
+  }
+  
+  .heading {
+    margin-bottom: 10px;
+    margin-top:20px; /* Reduce the margin */
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .input {
+    width: 300px;
+    margin: 15px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #92f300;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .button {
+    margin-top: 10px; /* Adjust the margin */
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .result {
+    font-size: 18px;
+    margin-top: 15px; /* Adjust the margin */
+    color: #28a745;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size */
+    margin-top: 15px;
+    transition: color 0.3s ease-in-out;
+    
+  }
+  
+  .link:hover {
+    color: #f8f9fa;
+  }
+  

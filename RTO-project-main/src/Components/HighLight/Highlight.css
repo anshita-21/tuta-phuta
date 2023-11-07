@@ -1,0 +1,113 @@
+/* .container {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+} */
+.functions-header {
+    text-align: center;
+   
+    margin-top: 50px; /* Adjust the top margin to your desired value */
+    margin-bottom: 20px; /* Adjust the bottom margin to your desired value */
+    font-size: 35px;
+    font-weight:800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+.container {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px; /* Adjust the top margin to your desired value */
+    margin-bottom: 80px; /* Adjust the bottom margin to your desired value */
+}
+
+.left, .center, .right, .extreme-right {
+    height: 300px;
+    width: 350px;
+    background-color: rgb(249, 247, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.left-inner, .extreme-right-inner {
+    height: 80%;
+    width: 85%;
+    background-color: rgb(249, 247, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icon {
+    width: 100%;
+    height: max-content;
+}
+
+.icon svg {
+    font-size: 45px;
+    padding: 15px;
+    border: 2px solid greenyellow;
+}
+
+.headline {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Add styles for the extreme-right container */
+.extreme-right {
+    height: 300px;
+    width: 350px;
+    background-color: rgb(249, 247, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.extreme-right-inner {
+    height: 80%;
+    width: 85%;
+    background-color: rgb(249, 247, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.extreme-right .icon svg {
+    font-size: 45px;
+    padding: 15px;
+    border: 2px solid greenyellow;
+}
+
+.extreme-right .headline {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.extreme-right .desc {
+    font-weight: 400;
+    font-size: 20px;
+}
